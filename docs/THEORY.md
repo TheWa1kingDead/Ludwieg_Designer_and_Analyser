@@ -63,7 +63,7 @@ Available: $PR_{av} = p_0/p_{vac}$. The run is flagged as possible when $PR_{av}
 
 ### Minimum dump-tank volume
 
-Empirical indraft-tunnel correlation, evaluated in imperial units ($A^*$ in ft$^2$, temperatures in deg R, $V$ in ft$^3$) and converted to m$^3$:
+Indraft-tunnel vacuum tank sizing correlation (Pope and Goin, 1965), evaluated in imperial units ($A^*$ in ft$^2$, temperatures in deg R, $V$ in ft$^3$) and converted to m$^3$:
 
 $$
 V_{dump} = \frac{28.35\,A^*\,T_e\,t_r\,PR_v}{\sqrt{T_0}\left[1-\left(p_{vac}/p_e\right)^{1/n}\right]}

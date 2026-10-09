@@ -282,7 +282,8 @@ m_driver_min = rho0*V_driver_min;               % Minimum driver mass [kg]
 
 PR_available = P0_driver/P_vac;
 
-% Minimum vacuum tank volume from the indraft correlation.
+% Minimum vacuum tank volume from the indraft-tunnel sizing correlation
+% (Pope & Goin, High-Speed Wind Tunnel Testing, 1965).
 V_dump = indraft_vacuum_volume(A_throat, T_exit, t_run, PR_v, T0_driver, P_vac, P_exit, n);
 
 % Pumping / compressor time estimates.
@@ -847,7 +848,8 @@ function mu = sutherland_mu(T, mu0, T0_S, S_C)
 end
 
 function V_dump = indraft_vacuum_volume(A_throat, T_exit, t_run, PR_v, T0_driver, P_vac, P_exit, n)
-    % Minimum vacuum tank volume from the user-provided indraft correlation.
+    % Minimum vacuum tank volume from the indraft-tunnel sizing correlation
+    % of Pope & Goin (1965), evaluated in imperial units and returned in m^3.
     dr = 1 - (P_vac/P_exit)^(1/n);
     if dr <= 0
         warning('Vacuum tank denominator <= 0. Check that P_vac << P_exit.');

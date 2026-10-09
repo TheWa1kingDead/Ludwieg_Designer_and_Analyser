@@ -170,7 +170,7 @@ One 2 x 3 figure, titled with the main run parameters:
 - The test core is bounded by straight Mach lines from the nozzle lip. Shear-layer growth of the free jet and the nozzle wall boundary layer reduce the real core; treat the model size as an upper limit.
 - The model is placed with its nose at the nozzle exit plane.
 - The rhombus is for a circular exit; it is also used for the rectangular model option.
-- The minimum dump-tank volume uses an empirical correlation in imperial units (see [`docs/THEORY.md`](docs/THEORY.md)).
+- The minimum dump-tank volume uses the indraft-tunnel sizing correlation of Pope and Goin (1965), in imperial units (see [`docs/THEORY.md`](docs/THEORY.md)).
 - Storage-tank sizing assumes isothermal blowdown through the choked throat; the constant 0.5787 corresponds to gamma = 1.4.
 - At high Mach numbers and a 300 K stagnation temperature the static temperature in the test section is very low (about 37 K at Mach 6), below the condensation limit of air. The script does not check for condensation; raise `T0_driver` (heated driver) where needed.
 - The altitude equivalence matches unit Reynolds number only (same Mach number, standard atmosphere); it does not match temperature or density.
