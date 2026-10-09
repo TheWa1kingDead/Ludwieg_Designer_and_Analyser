@@ -3,7 +3,7 @@ message: >-
   If you use this software, please cite it using the metadata below.
 type: software
 title: >-
-  Ludwieg Tube Free-Jet Analysis: preliminary design and performance analysis
+  Ludwieg Tube Designer and Analyser: preliminary design and performance analysis
   of a Ludwieg tube wind tunnel with a free-jet test section
 version: 1.0.0
 date-released: "2026-10-10"
@@ -11,7 +11,7 @@ authors:
   - family-names: Reddy
     given-names: MRK
     orcid: "https://orcid.org/0009-0006-8420-6672"
-repository-code: "https://github.com/TheWa1kingDead/Ludwieg-Tube-Freejet-Analysis"
+repository-code: "https://github.com/TheWa1kingDead/Ludwieg_Designer_and_Analyser"
 license: MIT
 abstract: >-
   MATLAB tool for the preliminary design of a Ludwieg tube wind tunnel with a

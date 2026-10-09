@@ -1,4 +1,4 @@
-# Ludwieg Tube Free-Jet Analysis
+# Ludwieg Tube Designer and Analyser
 
 MATLAB tool for the preliminary design and performance analysis of a **Ludwieg tube wind tunnel with a free-jet test section**. Given the nozzle (design exit Mach number and exit diameter) and the facility hardware, it works out what the tunnel can deliver and what it needs:
 
@@ -12,7 +12,7 @@ MATLAB tool for the preliminary design and performance analysis of a **Ludwieg t
 
 It is intended to be used with a nozzle designed with the method of characteristics, for example with
 [Three-Dimensional-Nozzle-Design-Code](https://github.com/TheWa1kingDead/Three-Dimensional-Nozzle-Design-Code) and
-[MOC-Nozzle-Contour-Export](https://github.com/TheWa1kingDead/MOC-Nozzle-Contour-Export).
+[MOC_Nozzle_BLC_contour_export](https://github.com/TheWa1kingDead/MOC_Nozzle_BLC_contour_export).
 
 ---
 
@@ -172,7 +172,7 @@ One 2 x 3 figure, titled with the main run parameters:
 - The rhombus is for a circular exit; it is also used for the rectangular model option.
 - The minimum dump-tank volume uses the indraft-tunnel sizing correlation of Pope and Goin (1965), in imperial units (see [`docs/THEORY.md`](docs/THEORY.md)).
 - Storage-tank sizing assumes isothermal blowdown through the choked throat; the constant 0.5787 corresponds to gamma = 1.4.
-- At high Mach numbers and a 300 K stagnation temperature the static temperature in the test section is very low (about 37 K at Mach 6), below the condensation limit of air. The script does not check for condensation; raise `T0_driver` (heated driver) where needed.
+- Condensation of moisture in compressed air during the nozzle expansion is not accounted for. For best results use dry air, which is the working gas the nozzle is designed for.
 - The altitude equivalence matches unit Reynolds number only (same Mach number, standard atmosphere); it does not match temperature or density.
 
 ---
@@ -195,14 +195,14 @@ One 2 x 3 figure, titled with the main run parameters:
 If you use this tool, please cite it (GitHub **"Cite this repository"** uses [`CITATION.cff`](CITATION.cff)).
 
 ```bibtex
-@software{reddy_ludwieg_tube_freejet_analysis_2026,
+@software{reddy_ludwieg_designer_and_analyser_2026,
   author  = {Reddy, MRK},
-  title   = {{Ludwieg Tube Free-Jet Analysis}: preliminary design and
+  title   = {{Ludwieg Tube Designer and Analyser}: preliminary design and
              performance analysis of a Ludwieg tube wind tunnel with a
              free-jet test section},
   year    = {2026},
   version = {1.0.0},
-  url     = {https://github.com/TheWa1kingDead/Ludwieg-Tube-Freejet-Analysis}
+  url     = {https://github.com/TheWa1kingDead/Ludwieg_Designer_and_Analyser}
 }
 ```
 
