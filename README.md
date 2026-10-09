@@ -84,13 +84,13 @@ All inputs are in **Section 1** of the script and appear in the dialog in five c
 |---|---|---|---|
 | `model_mode` | `'axisymmetric'` | - | `'axisymmetric'` (circular base) or `'rectangular'` (rectangular base) |
 | `model_width` | `40e-3` | m | Spanwise width, rectangular model only |
-| `alpha_upper` | `12.975` | deg | Upper surface angle, rectangular model |
-| `alpha_lower` | `11.785` | deg | Lower surface angle, rectangular model |
+| `alpha_upper` | `15` | deg | Upper surface angle, rectangular model |
+| `alpha_lower` | `12` | deg | Lower surface angle, rectangular model |
 | `alpha_axi` | `10` | deg | Angle used for the axisymmetric model length |
 
 Model length from its base dimension:
 
-- rectangular: `L = 2h / (tan(alpha_upper) + tan(alpha_lower))`
+- rectangular (example): `L = 2h / (tan(alpha_upper) + tan(alpha_lower))` 
 - axisymmetric: `L = d / tan(alpha_axi)`
 
 **Gas**
