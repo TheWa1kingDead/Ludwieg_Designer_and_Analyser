@@ -1,5 +1,7 @@
 # Ludwieg Tube Designer and Analyser
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23270222.svg)](https://doi.org/10.5281/zenodo.23270222)
+
 MATLAB tool for the preliminary design and performance analysis of a **Ludwieg tube wind tunnel with a free-jet test section**. Given the nozzle (design exit Mach number and exit diameter) and the facility hardware, it works out what the tunnel can deliver and what it needs:
 
 - driver tube length, mass and minimum diameter for the target run time,
@@ -192,7 +194,7 @@ One 2 x 3 figure, titled with the main run parameters:
 
 ## How to cite
 
-If you use this tool, please cite it (GitHub **"Cite this repository"** uses [`CITATION.cff`](CITATION.cff)).
+This tool is archived on Zenodo: [doi:10.5281/zenodo.23270222](https://doi.org/10.5281/zenodo.23270222). If you use it, please cite it (GitHub **"Cite this repository"** uses [`CITATION.cff`](CITATION.cff)).
 
 ```bibtex
 @software{reddy_ludwieg_designer_and_analyser_2026,
@@ -202,6 +204,7 @@ If you use this tool, please cite it (GitHub **"Cite this repository"** uses [`C
              free-jet test section},
   year    = {2026},
   version = {1.0.0},
+  doi     = {10.5281/zenodo.23270222},
   url     = {https://github.com/TheWa1kingDead/Ludwieg_Designer_and_Analyser}
 }
 ```
