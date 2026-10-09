@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it using the metadata below.
+type: software
+title: >-
+  Ludwieg Tube Free-Jet Analysis: preliminary design and performance analysis
+  of a Ludwieg tube wind tunnel with a free-jet test section
+version: 1.0.0
+date-released: "2026-10-10"
+authors:
+  - family-names: Reddy
+    given-names: MRK
+    orcid: "https://orcid.org/0009-0006-8420-6672"
+repository-code: "https://github.com/TheWa1kingDead/Ludwieg-Tube-Freejet-Analysis"
+license: MIT
+abstract: >-
+  MATLAB tool for the preliminary design of a Ludwieg tube wind tunnel with a
+  free-jet test section. For a given nozzle exit Mach number and exit
+  diameter it computes the driver tube length and mass, freestream conditions,
+  minimum vacuum dump-tank volume and its pressure rise during the run,
+  storage and pumping times, the uniform test-core rhombus, the largest model
+  that fits in it and its blockage, Reynolds-number matching, and the
+  operating envelope of unit Reynolds number against stagnation pressure with
+  the Reynolds-equivalent flight altitude.
+keywords:
+  - Ludwieg tube
+  - hypersonic wind tunnel
+  - free jet
+  - test section
+  - Reynolds number
+  - wind tunnel design
+  - MATLAB
+references:
+  - type: article
+    title: Der Rohrwindkanal
+    authors:
+      - family-names: Ludwieg
+        given-names: H.
+    journal: Zeitschrift für Flugwissenschaften
+    volume: 3
+    issue: 7
+    start: 206
+    end: 216
+    year: 1955
+  - type: book
+    title: High-Speed Wind Tunnel Testing
+    authors:
+      - family-names: Pope
+        given-names: Alan
+      - family-names: Goin
+        given-names: Kennith L.
+    publisher:
+      name: Wiley
+    year: 1965
