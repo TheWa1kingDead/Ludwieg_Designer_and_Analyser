@@ -65,8 +65,8 @@ model_width = 40e-3;                % [m] only used for rectangular model
 % Body length requirements:
 %   Rectangular  : L_req = 2*h / (tand(alpha_upper) + tand(alpha_lower))
 %   Axisymmetric : L_req = d / tand(alpha_axi)
-alpha_upper = 12.975;
-alpha_lower = 11.785;
+alpha_upper = 15;
+alpha_lower = 12;
 alpha_axi   = 10;
 
 % Sutherland constants
