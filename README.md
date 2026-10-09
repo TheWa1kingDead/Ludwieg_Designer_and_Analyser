@@ -222,6 +222,10 @@ If you use this tool, please cite it (GitHub **"Cite this repository"** uses [`C
 
 Released under the [MIT License](LICENSE).
 
+## Acknowledgements
+
+This tool was developed by MRK Reddy under the guidance of **Prof. S.K. Karthick**, Department of Mechanical and Aerospace Engineering, Indian Institute of Technology Hyderabad, India.
+
 ## Contact
 
 **MRK Reddy** · ORCID [0009-0006-8420-6672](https://orcid.org/0009-0006-8420-6672) · GitHub [@TheWa1kingDead](https://github.com/TheWa1kingDead)
